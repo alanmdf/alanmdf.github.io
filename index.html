@@ -5,6 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Alan Freitas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #dcdfe4 ;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            list-style-position: inside;   
+            margin: 10px 200px;                         
+        }
+
+        h2 {
+            color: #666b3a;
+        }
+
+        h3 {
+            color: #6b692b;                                   
+        }
+
+        #my-name {
+            font-weight: bold;
+        }
+
+        .text {
+            color: #000000 ;
+            line-height: 25px;                               
+        }
+
+        #foto-de-perfil {
+            border-radius: 0px;
+            border-width: 1px;
+            border-color: #000000;
+            border-style: solid ;    
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
     <h2>Índice de navegação</h2>
@@ -18,26 +54,22 @@
 
     <h2 id="nome-completo">Nome completo</h2>
 
-    <p>Alan Moreira de Freitas</p>
+    <p class="text" id="my-name">Alan Moreira de Freitas</p>
 
-    <img id="foto-de-perfil" src="images/profile-picture.png" alt="Foto de perfil" width="150px">
+    <img id="foto-de-perfil" src="images/profile-picture.png" alt="Foto de perfil">
 
     <h2 id="sobre-mim">Sobre mim</h2>
-
-    <h4>Nacionalidade</h4>
-
-    <p>Brasil</p>
-
-    <h4>Cidade e UF onde resido</h4>
-
-    <p>Recife - PE</p>
+    
+    <p class="font1 text" >
+        Sou <strong>Brasileiro</strong>, natural e residente de <strong>Recife-PE</strong>.<br> Graduado em Engenharia Eletrotécnica pela UPE, decidi no ano <strong>2021</strong> uma mudança na carreira:<br><strong>Iniciei minha jornada na Trybe como Estudante de Desenvolvimento Web (Full-stack)</strong>.
+    </p>
 
     <h2 id="minhas-habilidades">Minhas habilidades</h2>
 
     <h3>Habilidades sociais</h3>
 
-    <ul>
-        <li><strong>Fácil aprendizado</strong></li>
+    <ul class="text">
+        <li>Fácil aprendizado</li>
         <li>Proatividade</li>
         <li>Trabalho em equipe</li>
         <li>Interesse por projetos desafiadores</li>
@@ -45,15 +77,14 @@
 
     <h3>Habilidades técnicas</h3>
 
-    <ul>
+    <ul class="text">
         <li>Unix & Bash</li>
         <li>Git & GitHub</li>
         <li>HTML</li>
+        <li>CSS</li>
     </ul>
 
     <h2 id="links">Links</h2>
-
-    <a href="#foto-de-perfil"><em>Confira novamente a minha foto de perfil :)</em> </a><br><br>
 
     <a href="https://www.reddit.com" target="_blank">Conheça um dos meus sites favoritos: Reddit.com</a>
 
