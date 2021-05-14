@@ -7,40 +7,7 @@
     <title>Portfólio - Alan Freitas</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background-color: #dcdfe4 ;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-            list-style-position: inside;   
-            margin: 10px 200px;                         
-        }
-
-        h2 {
-            color: #666b3a;
-        }
-
-        h3 {
-            color: #6b692b;                                   
-        }
-
-        #my-name {
-            font-weight: bold;
-        }
-
-        .text {
-            color: #000000 ;
-            line-height: 25px;                               
-        }
-
-        #foto-de-perfil {
-            border-radius: 0px;
-            border-width: 1px;
-            border-color: #000000;
-            border-style: solid ;    
-            height: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Índice de navegação</h2>
@@ -52,17 +19,23 @@
         <li><a href="#links">Links</a></li>
     </ol>
 
-    <h2 id="nome-completo">Nome completo</h2>
-
-    <p class="text" id="my-name">Alan Moreira de Freitas</p>
-
-    <img id="foto-de-perfil" src="images/profile-picture.png" alt="Foto de perfil">
-
-    <h2 id="sobre-mim">Sobre mim</h2>
-    
-    <p class="font1 text" >
-        Sou <strong>Brasileiro</strong>, natural e residente de <strong>Recife-PE</strong>.<br> Graduado em Engenharia Eletrotécnica pela UPE, decidi no ano <strong>2021</strong> uma mudança na carreira:<br><strong>Iniciei minha jornada na Trybe como Estudante de Desenvolvimento Web (Full-stack)</strong>.
-    </p>
+    <div class="profileContainer">
+        <div class="nameContainer">
+            <h2 id="nome-completo">Nome completo</h2>
+        
+            <p class="text" id="my-name">Alan Moreira de Freitas</p>
+        </div>
+        <div class="imgContainer">
+            <img id="profilePicture" src="images/profile-picture.png" alt="Foto de perfil">
+        </div>
+        <div class="aboutMeContainer">
+            <h2 id="sobre-mim">Sobre mim</h2>
+            
+            <p class="font1 text" >
+                Sou <strong>Brasileiro</strong>, natural e residente de <strong>Recife-PE</strong>.<br> Graduado em Engenharia Eletrotécnica pela UPE, decidi no ano <strong>2021</strong> uma mudança na carreira:<br><strong>Iniciei minha jornada na Trybe como Estudante de Desenvolvimento Web (Full-stack)</strong>.
+            </p> 
+    </div>
+    </div>
 
     <h2 id="minhas-habilidades">Minhas habilidades</h2>
 

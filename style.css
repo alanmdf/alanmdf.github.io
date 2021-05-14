@@ -1,0 +1,52 @@
+body {
+  background-color: #dcdfe4 ;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  list-style-position: inside;   
+  margin: 10px 200px;                                
+}
+
+h2 {
+  color: #666b3a;
+}
+
+h3 {
+  color: #7e7b2d;                                   
+}
+
+#my-name {
+  font-weight: bold;
+}
+
+.text {
+  color: #000000 ;
+  line-height: 25px;                               
+}
+
+.imgContainer {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgb(120, 143, 86) ;
+}
+
+#profilePicture {
+  height: 250px;
+}
+
+.aboutMeContainer {
+  display: inline-block;
+  max-width: 400px;
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 150px;
+  margin-top: 0px;
+}
+
+.aboutMeContainer h2 {
+  text-align: center;
+}
+
+li {
+  list-style: even;
+}
