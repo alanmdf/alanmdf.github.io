@@ -1,65 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Alan Freitas</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio - Alan Freitas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Índice de navegação</h2>
-
-    <ol>
-        <li><a href="#nome-completo">Nome completo</a></li>
-        <li><a href="#sobre-mim">Sobre mim</a></li>
-        <li><a href="#minhas-habilidades">Minhas habilidades</a></li>
-        <li><a href="#links">Links</a></li>
-    </ol>
-
-    <div class="profileContainer">
-        <div class="nameContainer">
-            <h2 id="nome-completo">Nome completo</h2>
-        
-            <p class="text" id="my-name">Alan Moreira de Freitas</p>
+  <header class="page-header">
+    <h3 class="titles-text">My Portfolio</h1>
+    <nav class="page-nav-bar">
+      <a href="">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+  <section class="about-me-section">
+    <h1 class="titles-text">_about me</h1>
+    <div class="about-me-box">
+      <div class="profile-img-div">
+        <img src="images/new-profile-picture.jpeg" alt="">
+        <div class="social-media-links">
+          <i class="fa fa-github-square"></i>
+          <i class="fa fa-envelope"></i>
+          <i class="fa fa-linkedin"></i>
         </div>
-        <div class="imgContainer">
-            <img id="profilePicture" src="images/profile-picture.png" alt="Foto de perfil">
+      </div>
+      <div class="text-and-links-box">
+        <div class="about-me-text">
+          <h2>ALAN FREITAS</h2>
+          <p>Tenho 26 anos, moro em Recife-PE. Sou estudante de Desenvolvimento Web na Trybe. <br> <br> Neste portifólio irei apresentar alguns projetos que desenvolvi utilizando: <br> <br> HTML, CSS e JavaScript. </p>
         </div>
-        <div class="aboutMeContainer">
-            <h2 id="sobre-mim">Sobre mim</h2>
-            
-            <p class="font1 text" >
-                Sou <strong>Brasileiro</strong>, natural e residente de <strong>Recife-PE</strong>.<br> Graduado em Engenharia Eletrotécnica pela UPE, decidi no ano <strong>2021</strong> uma mudança na carreira:<br><strong>Iniciei minha jornada na Trybe como Estudante de Desenvolvimento Web (Full-stack)</strong>.
-            </p> 
+      </div>
     </div>
+  </section>
+  <hr>
+  <section class="web-projects-section">
+    <h1 class="titles-text">_web projects</h1>
+    <p class="web-projects-description">Para desenvolver esses projetos, utilizei meus conhecimentos em:
+       <ul>
+         <li>Unix & Bash</li>
+         <li>Git & GitHub</li>
+         <li>HTML (Estruturação de página com HTML Semântico, criação de formulários)</li>
+         <li>CSS (Flexbox, Design Responsivo, Mobile First)</li>
+         <li>JavaScript (Manipulação do DOM, Testes unitários)</li>
+       </ul>
+  </p>
+  <div class="project-card">
+    <div class="thumb-img-div">
+      <img src="images/lessons-learned-thumb.jpeg" alt="">
     </div>
-
-    <h2 id="minhas-habilidades">Minhas habilidades</h2>
-
-    <h3>Habilidades sociais</h3>
-
-    <ul class="text">
-        <li>Fácil aprendizado</li>
-        <li>Proatividade</li>
-        <li>Trabalho em equipe</li>
-        <li>Interesse por projetos desafiadores</li>
-    </ul>
-
-    <h3>Habilidades técnicas</h3>
-
-    <ul class="text">
-        <li>Unix & Bash</li>
-        <li>Git & GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
-
-    <h2 id="links">Links</h2>
-
-    <a href="https://www.reddit.com" target="_blank">Conheça um dos meus sites favoritos: Reddit.com</a>
-
-    </body>
+      <p>Primeiro projeto realizado no curso da Trybe, consistia em aplicar conhecimentos simples de HTML e CSS e criar uma páginal pessoal.</p>
+  </div>
+  </section>
+  
+</body>
 </html>
