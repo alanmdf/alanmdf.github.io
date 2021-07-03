@@ -1,52 +1,179 @@
-body {
-  background-color: #dcdfe4 ;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  list-style-position: inside;   
-  margin: 10px 200px;                                
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-h2 {
-  color: #666b3a;
-}
+@media screen and (max-width: 425px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2235 ;
+    color: white;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 
-h3 {
-  color: #7e7b2d;                                   
-}
+  .page-header {
+    padding: 0.7em 1em;
+    display: flex;
+    background-color: #161d2d;
+    color: #3983f6;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-#my-name {
-  font-weight: bold;
-}
+  .page-header h3 {
+    font-size: 1.5em;
+  }
 
-.text {
-  color: #000000 ;
-  line-height: 25px;                               
-}
+  .titles-text {
+    color: #3983f6;
+  }
 
-.imgContainer {
-  display: inline-block;
-  margin-top: 50px;
-  padding: 10px;
-  background-color: rgb(120, 143, 86) ;
-}
+  .page-header .fa-bars {
+    font-size: 2em;
+  }
 
-#profilePicture {
-  height: 250px;
-}
+  .about-me-section {
+    padding: 0.5em 1em;
+  }
 
-.aboutMeContainer {
-  display: inline-block;
-  max-width: 400px;
-  text-align: center;
-  margin-left: 40px;
-  margin-bottom: 150px;
-  margin-top: 0px;
-}
+  .about-me-section h1 {
+    padding: 0.3em 0;
+    font-size: 2.3em;
+  }
 
-.aboutMeContainer h2 {
-  text-align: center;
-}
+  .about-me-box {
+    display: flex;
+    gap: 1em;
+    padding: 0.5em 0;
+  }
 
-li {
-  list-style: even;
+  .profile-img-div {
+    width: 45%;
+    padding: 0.3em 0;
+  }
+
+  .profile-img-div img {
+    width: 100%;
+  }
+
+  .profile-img-div i {
+    font-size: 1.8em;
+  }
+
+  .social-media-links {
+    margin: 1.1em 0 ;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-and-links-box {
+    display: flex;
+    width: 55%;
+  }
+
+  .about-me-text h2 {
+    margin-bottom: 0.5em;
+  }
+
+  .web-projects-section {
+    padding: 0.5em 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .web-projects-section h1 {
+    padding: 0.5em 0;
+    font-size: 2.3em;
+  }
+
+  .web-projects-description {
+    font-size: 1em;
+  }
+
+  .web-projects-section ul {
+    list-style-type: circle;
+    margin: 0.5em 1em;
+  }
+
+  .web-projects-section li {
+    margin: 0.5em;
+    font-size: 0.9em;
+  }
+
+  .project-card {
+    margin-top: 0.9em;
+    display: flex;
+    background-color: #4a5a7b;
+    padding: 0.5em 1em;
+    gap: 1em;
+    border-radius: 0.8em;
+    height: 6em;
+    align-items: center;
+  }
+
+  .thumb-img-div {
+    width: 50%;
+    height: 100%;
+    padding: 0.3em 0;
+  }
+
+  .thumb-img-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8em;
+  }
+
+  .project-card p {
+    width: 70%;
+    font-size: 1em;
+  }
+
+  .js-only-projects-section {
+    padding: 0.5em 1em;
+  }
+
+  .js-only-projects-section h1 {
+    padding: 0.5em 0;
+    font-size: 2.3em;
+  }
+
+  .js-projects-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .js-only-project {
+    width: 30%;
+    border: 1px white solid;
+  }
+
+  .js-only-project img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .js-only-links-div {
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .js-only-links-div i {
+    font-size: 2.5em;
+  }
+
+  .page-footer {
+      padding: 0.7em 1em;
+      background-color: #161d2d;
+      color: #3983f6;
+      font-size: 0.9em;
+      font-weight: bold;
+  }
+
 }
