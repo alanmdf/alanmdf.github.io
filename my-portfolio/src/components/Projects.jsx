@@ -17,43 +17,43 @@ function Projects() {
       <a target="_blank" href="projects/project-lessons-learned/index.html">
         <ProjectCard
           projectThumb={ LessonsLearnedThumb }
-          projectDescription="Primeiro projeto &#128517"
+          projectDescription="Primeiro projeto 😅"
         />
       </a>
       <a target="_blank" href="projects/project-pixels-art/index.html">
         <ProjectCard
           projectThumb={ PixelsArtThumb }
-          projectDescription="Desenhe com pixels! &#9997"
+          projectDescription="Desenhe com pixels! ✍"
         />
       </a>
       <a target="_blank" href="projects/project-todo-list/index.html">
         <ProjectCard
           projectThumb={ ToDoListThumb }
-          projectDescription="Crie uma lista dinâmica de tarefas &#128204"
+          projectDescription="Crie uma lista dinâmica de tarefas 📌"
         />
       </a>
       <a target="_blank" href="projects/project-meme-generator/index.html">
         <ProjectCard
           projectThumb={ MemeGeneratorThumb }
-          projectDescription="Meme Generator! &#128526"
+          projectDescription="Meme Generator! 😎"
         />
       </a>
       <a target="_blank" href="projects/project-color-guess/index.html">
         <ProjectCard
           projectThumb={ GuessTheColorThumb }
-          projectDescription="Adivinhe a cor &#129300"
+          projectDescription="Adivinhe a cor 🤔"
         />
       </a>
       <a target="_blank" href="projects/project-mistery-letter/">
         <ProjectCard
           projectThumb={ MisteryLetterThumb }
-          projectDescription="Carta misteriosa &#128231"
+          projectDescription="Carta misteriosa 📬"
         />
       </a>
       <a target="_blank" href="projects/project-trybewarts/index.html">
         <ProjectCard
           projectThumb={ TrybewartsThumb }
-          projectDescription="Inscreva-se na Trybewarts! &#129497<"
+          projectDescription="Inscreva-se na Trybewarts! 🧙"
         />
       </a>
     </section>
