@@ -4,7 +4,6 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
@@ -54,12 +53,15 @@
   }
 
   .profile-img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 45%;
     padding: 0.3em 0;
   }
 
   .profile-img-div img {
-    width: 100%;
+    width: 80%;
   }
 
   .profile-img-div i {
@@ -69,7 +71,8 @@
   .social-media-links {
     margin: 1.1em 0 ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   .text-and-links-box {
@@ -79,6 +82,10 @@
 
   .about-me-text h2 {
     margin-bottom: 0.5em;
+  }
+
+  .about-me-text ul {
+    list-style-type: none;
   }
 
   .web-projects-section {
@@ -175,4 +182,3 @@
       font-size: 0.9em;
       font-weight: bold;
   }
-}
