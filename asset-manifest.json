@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1f73ee2.chunk.css",
-    "main.js": "/static/js/main.b5b5aedf.chunk.js",
-    "main.js.map": "/static/js/main.b5b5aedf.chunk.js.map",
+    "main.css": "/static/css/main.cb1220ab.chunk.css",
+    "main.js": "/static/js/main.c2ee2e4c.chunk.js",
+    "main.js.map": "/static/js/main.c2ee2e4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.526a3b3a.js",
     "runtime-main.js.map": "/static/js/runtime-main.526a3b3a.js.map",
     "static/js/2.66d84cc5.chunk.js": "/static/js/2.66d84cc5.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.949ac332.chunk.js": "/static/js/3.949ac332.chunk.js",
     "static/js/3.949ac332.chunk.js.map": "/static/js/3.949ac332.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a1f73ee2.chunk.css.map": "/static/css/main.a1f73ee2.chunk.css.map",
+    "static/css/main.cb1220ab.chunk.css.map": "/static/css/main.cb1220ab.chunk.css.map",
     "static/js/2.66d84cc5.chunk.js.LICENSE.txt": "/static/js/2.66d84cc5.chunk.js.LICENSE.txt",
     "static/media/guess-the-color-thumb.b782f05d.jpeg": "/static/media/guess-the-color-thumb.b782f05d.jpeg",
     "static/media/lessons-learned-thumb.16218116.jpeg": "/static/media/lessons-learned-thumb.16218116.jpeg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.526a3b3a.js",
     "static/js/2.66d84cc5.chunk.js",
-    "static/css/main.a1f73ee2.chunk.css",
-    "static/js/main.b5b5aedf.chunk.js"
+    "static/css/main.cb1220ab.chunk.css",
+    "static/js/main.c2ee2e4c.chunk.js"
   ]
 }
