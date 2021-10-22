@@ -9,19 +9,12 @@ function AboutMeText() {
         {' '}
         <a target="_blank" href="https://www.betrybe.com/" rel="noreferrer">Trybe</a>
         .
-        {' '}
         <br />
-        {' '}
         <br />
-        {' '}
-        Neste portifólio irei apresentar alguns projetos que desenvolvi utilizando:
-        {' '}
+        Neste portfólio irei apresentar alguns projetos separados
+        em seções conforme minha evolução ao longo do curso.
         <br />
-        {' '}
         <br />
-        {' '}
-        HTML, CSS e JavaScript.
-        {' '}
       </p>
     </div>
   );
