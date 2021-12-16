@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import FundamentalsProjects from './components/FundamentalsProjects';
-// import FrontendProjects from './components/FrontendProjects';
+import FrontendProjects from './components/FrontendProjects';
 
 import './App.css';
 import Footer from './components/Footer';
@@ -15,8 +15,8 @@ function App() {
       <AboutMe />
       <hr />
       <FundamentalsProjects />
-      {/* <hr />
-      <FrontendProjects /> */}
+      <hr />
+      <FrontendProjects />
       <Footer />
     </div>
   );
