@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 
 import FrontEndStore from '../images/frontend-online-store-thumb.png';
 import MovieCardLibrary from '../images/movie-card-library-thumb.png';
+import GhostDevsStopWatch from '../images/ghostdevs-stopwatch.png';
 
 function Projects() {
   return (
@@ -18,6 +19,11 @@ function Projects() {
         projectThumb={ MovieCardLibrary }
         projectDescription="Escolha o filme 🎬"
         projectURL="https://alanmdf.github.io/movie-card-library"
+      />
+      <ProjectCard
+        projectThumb={ GhostDevsStopWatch }
+        projectDescription="Temporizador assustador 👻"
+        projectURL="https://alanmdf.github.io/ghostdevs-stopwatch"
       />
     </section>
   );
