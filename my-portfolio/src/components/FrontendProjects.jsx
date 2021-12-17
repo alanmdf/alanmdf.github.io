@@ -5,6 +5,7 @@ import ProjectCard from './ProjectCard';
 import FrontEndStore from '../images/frontend-online-store-thumb.png';
 import MovieCardLibrary from '../images/movie-card-library-thumb.png';
 import GhostDevsStopWatch from '../images/ghostdevs-stopwatch.png';
+import TrybeWallet from '../images/trybewallet-thumb.png';
 
 function Projects() {
   return (
@@ -24,6 +25,11 @@ function Projects() {
         projectThumb={ GhostDevsStopWatch }
         projectDescription="Temporizador assustador 👻"
         projectURL="https://alanmdf.github.io/ghostdevs-stopwatch"
+      />
+      <ProjectCard
+        projectThumb={ TrybeWallet }
+        projectDescription="Carteira com conversor de moedas 💵💶💷"
+        projectURL="https://alanmdf.github.io/trybewallet"
       />
     </section>
   );
