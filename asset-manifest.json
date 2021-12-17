@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb1220ab.chunk.css",
-    "main.js": "/static/js/main.c2ee2e4c.chunk.js",
-    "main.js.map": "/static/js/main.c2ee2e4c.chunk.js.map",
+    "main.js": "/static/js/main.673e0a99.chunk.js",
+    "main.js.map": "/static/js/main.673e0a99.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.526a3b3a.js",
     "runtime-main.js.map": "/static/js/runtime-main.526a3b3a.js.map",
     "static/js/2.66d84cc5.chunk.js": "/static/js/2.66d84cc5.chunk.js",
@@ -12,19 +12,26 @@
     "index.html": "/index.html",
     "static/css/main.cb1220ab.chunk.css.map": "/static/css/main.cb1220ab.chunk.css.map",
     "static/js/2.66d84cc5.chunk.js.LICENSE.txt": "/static/js/2.66d84cc5.chunk.js.LICENSE.txt",
+    "static/media/frontend-online-store-thumb.bc978900.png": "/static/media/frontend-online-store-thumb.bc978900.png",
+    "static/media/ghostdevs-stopwatch.cbb8bb46.png": "/static/media/ghostdevs-stopwatch.cbb8bb46.png",
     "static/media/guess-the-color-thumb.b782f05d.jpeg": "/static/media/guess-the-color-thumb.b782f05d.jpeg",
     "static/media/lessons-learned-thumb.16218116.jpeg": "/static/media/lessons-learned-thumb.16218116.jpeg",
     "static/media/meme-generator-thumb.ef6cde0b.jpeg": "/static/media/meme-generator-thumb.ef6cde0b.jpeg",
     "static/media/mistery-letter-thumb.5e03f206.jpeg": "/static/media/mistery-letter-thumb.5e03f206.jpeg",
+    "static/media/movie-card-library-thumb.341fab7e.png": "/static/media/movie-card-library-thumb.341fab7e.png",
     "static/media/pixels-art-thumb.be8f7d61.jpeg": "/static/media/pixels-art-thumb.be8f7d61.jpeg",
     "static/media/profile-picture.01a76cce.png": "/static/media/profile-picture.01a76cce.png",
+    "static/media/recipes-app-thumb.d2380c83.png": "/static/media/recipes-app-thumb.d2380c83.png",
+    "static/media/starwars-thumb.b48a35e1.png": "/static/media/starwars-thumb.b48a35e1.png",
     "static/media/to-do-list-thumb.5e715cda.jpeg": "/static/media/to-do-list-thumb.5e715cda.jpeg",
+    "static/media/trivia-react-redux-thumb.eb801f3f.png": "/static/media/trivia-react-redux-thumb.eb801f3f.png",
+    "static/media/trybewallet-thumb.1c0e206e.png": "/static/media/trybewallet-thumb.1c0e206e.png",
     "static/media/trybewarts-thumb.53041691.jpeg": "/static/media/trybewarts-thumb.53041691.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.526a3b3a.js",
     "static/js/2.66d84cc5.chunk.js",
     "static/css/main.cb1220ab.chunk.css",
-    "static/js/main.c2ee2e4c.chunk.js"
+    "static/js/main.673e0a99.chunk.js"
   ]
 }
