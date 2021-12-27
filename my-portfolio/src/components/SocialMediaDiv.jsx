@@ -9,7 +9,9 @@ function SocialMediaDiv() {
       <a target="_blank" href="https://www.linkedin.com/in/alanfreitas/" rel="noreferrer">
         <i className="fa fa-linkedin" />
       </a>
-      <i className="fa fa-envelope" />
+      <a href="mailto:alanmoreirascr@gmail.com">
+        <i className="fa fa-envelope" />
+      </a>
     </div>
   );
 }

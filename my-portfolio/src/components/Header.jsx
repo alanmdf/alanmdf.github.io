@@ -3,11 +3,11 @@ import React from 'react';
 function Header() {
   return (
     <header className="page-header">
-      <h3 className="titles-text">Meu Portfólio</h3>
+      <h3 className="main-header">Meu Portfólio</h3>
       <nav className="page-nav-bar">
-        <a href="xablau">
+        <span>
           <i className="fa fa-bars" />
-        </a>
+        </span>
       </nav>
     </header>
   );

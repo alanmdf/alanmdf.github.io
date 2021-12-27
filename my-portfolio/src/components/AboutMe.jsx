@@ -3,12 +3,14 @@ import React from 'react';
 import AboutMeText from './AboutMeText';
 import SocialMediaDiv from './SocialMediaDiv';
 
-import ProfileImg from '../images/profile-picture.png';
+import ProfileImg from '../images/perfil_trybe.jpeg';
 
 function AboutMe() {
   return (
     <section className="about-me-section">
-      <h1 className="titles-text">_about me</h1>
+      <h1 className="titles-text">
+        _about me
+      </h1>
       <div className="about-me-box">
         <div className="profile-img-div">
           <img src={ ProfileImg } alt="" />

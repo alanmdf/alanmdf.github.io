@@ -4,10 +4,7 @@ function Footer() {
   return (
     <footer className="page-footer">
       <p>
-        Responsável pelo Desenvolvimento Web: Alan Freitas
-      </p>
-      <p>
-        Responsável pelo Design Gráfico: Daniel Gonçalves
+        Desenvolvido por Alan Freitas | Assistente Visual: Daniel Tríade
       </p>
     </footer>
   );
