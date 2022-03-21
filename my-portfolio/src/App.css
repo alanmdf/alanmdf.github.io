@@ -150,6 +150,7 @@
     margin: 0.5em 0;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
   }
 
   @media screen and (min-width: 768px) {
