@@ -43,37 +43,37 @@ function Projects() {
         <ProjectCard
           projectThumb={ FrontEndStore }
           projectDescription="É hora das compras! 🛒"
-          projectURL="https://alanmdf.github.io/frontend-online-store"
+          projectURL="https://alanmdf.github.io/reactjs-frontend-online-store"
         />
         <ProjectCard
           projectThumb={ MovieCardLibrary }
           projectDescription="Escolha o filme 🎬"
-          projectURL="https://alanmdf.github.io/movie-card-library"
+          projectURL="https://alanmdf.github.io/reactjs-movie-card-library"
         />
         <ProjectCard
           projectThumb={ GhostDevsStopWatch }
           projectDescription="Temporizador assustador 👻"
-          projectURL="https://alanmdf.github.io/ghostdevs-stopwatch"
+          projectURL="https://alanmdf.github.io/reactjs-ghostdevs-stopwatch"
         />
         <ProjectCard
           projectThumb={ TrybeWallet }
           projectDescription="Carteira com conversor de moedas 💵💶💷"
-          projectURL="https://alanmdf.github.io/trybewallet"
+          projectURL="https://alanmdf.github.io/reactjs-trybewallet"
         />
         <ProjectCard
           projectThumb={ TriviaGame }
           projectDescription="Qual a resposta certa? 👀🤔✅"
-          projectURL="https://alanmdf.github.io/trivia-react-redux/"
+          projectURL="https://alanmdf.github.io/reactjs-trivia-react-redux/"
         />
         <ProjectCard
           projectThumb={ StarWarsSearch }
           projectDescription="Planetas de StarWars 🚀🌑"
-          projectURL="https://alanmdf.github.io/starwars-planets-search/"
+          projectURL="https://alanmdf.github.io/reactjs-starwars-planets-search/"
         />
         <ProjectCard
           projectThumb={ RecipesApp }
           projectDescription="Descubra receitas incríveis! 👨‍🍳📙 "
-          projectURL="https://alanmdf.github.io/recipes-app/"
+          projectURL="https://alanmdf.github.io/reactjs-recipes-app/"
         />
       </section>
     </>
